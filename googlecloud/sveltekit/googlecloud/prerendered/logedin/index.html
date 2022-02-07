@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="description" content="Svelte demo app" />
+		<link rel="icon" href="./favicon.png" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>Home</title>
+	<link rel="stylesheet" href="/_app/assets/pages/__layout.svelte-f6efc1c7.css">
+	<link rel="stylesheet" href="/_app/assets/pages/logedin.svelte-91e591bb.css">
+	<link rel="modulepreload" href="/_app/start-9229262a.js">
+	<link rel="modulepreload" href="/_app/chunks/vendor-b91748e0.js">
+	<link rel="modulepreload" href="/_app/pages/__layout.svelte-0853107c.js">
+	<link rel="modulepreload" href="/_app/pages/logedin.svelte-929c67c0.js">
+			<script type="module">
+				import { start } from "/_app/start-9229262a.js";
+				start({
+					target: document.querySelector("#svelte"),
+					paths: {"base":"","assets":""},
+					session: {},
+					route: true,
+					spa: false,
+					trailing_slash: "never",
+					hydrate: {
+						status: 200,
+						error: null,
+						nodes: [
+							import("/_app/pages/__layout.svelte-0853107c.js"),
+						import("/_app/pages/logedin.svelte-929c67c0.js")
+						],
+						url: new URL("http://sveltekit-prerender/logedin"),
+						params: {}
+					}
+				});
+			</script>
+	</head>
+	<body>
+		<div id="svelte">
+
+
+<header class="svelte-t2wq17"><div class="corner svelte-t2wq17"><a href="https://kit.svelte.dev" class="svelte-t2wq17"><img src="/_app/assets/svelte-logo-87df40b8.svg" alt="SvelteKit" class="svelte-t2wq17"></a></div>
+
+	<nav class="svelte-t2wq17"><svg viewBox="0 0 2 3" aria-hidden="true" class="svelte-t2wq17"><path d="M0,0 L1,2 C1.5,3 1.5,3 2,3 L2,0 Z" class="svelte-t2wq17"></path></svg>
+		<ul class="svelte-t2wq17"><li class="svelte-t2wq17"><a sveltekit:prefetch href="/" class="svelte-t2wq17">Home</a></li>
+			
+			<li class="svelte-t2wq17"><a sveltekit:prefetch href="/about" class="svelte-t2wq17">About</a></li>
+
+			<li class="svelte-t2wq17"><a sveltekit:prefetch href="/login" class="svelte-t2wq17">login</a></li></ul>
+		<svg viewBox="0 0 2 3" aria-hidden="true" class="svelte-t2wq17"><path d="M0,0 L0,3 C0.5,3 0.5,3 1,2 L2,0 Z" class="svelte-t2wq17"></path></svg></nav>
+
+	<div class="corner svelte-t2wq17"></div>
+</header>
+
+<main class="svelte-chzn8z">
+
+<body class="body-css" style="background-color: #424242;" id="thebody"><main class="maincontent"><div class="stories"><div><ul class="storiesul"><li class="storycontent"><button class="storeisbutton"><div></div>
+                <div>Home</div></button></li>
+  
+            <li class="storycontent"><button class="storeisbutton"><div></div>
+                <div>Quax</div></button></li>
+            
+            
+            <li class="storycontent"><button class="storeisbutton"><div></div>
+                <div>Home</div></button></li></ul></div></div></main>
+
+
+
+
+
+
+<div class="setting-show svelte-15bnx4s" id="setting-show"><button class="setting-backbutton">Back</button>
+<div class="setting-helplist" style="text-decoration: none;"><nav></nav></div></div>
+</body>
+</main>
+
+</div>
+	</body>
+</html>
