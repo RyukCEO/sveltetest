@@ -1,10 +1,9 @@
 <script context="module" lang="ts">
 	export const prerender = true;
+
+  import topnavbar from '$lib/topnavbar.svelte';
 </script>
 
-<script>
-	import leftnavbar from '$lib/leftnavbar.svelte';
-</script>
 
 <svelte:head>
 	<title>Home</title>

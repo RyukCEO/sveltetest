@@ -15,12 +15,14 @@
 			</picture>
 		</div>
 
-		to your new<br />SvelteKit app
+		UNIVERSE
 	</h1>
 
-	<h2>
-		try editing <strong>src/routes/index.svelte</strong>
-	</h2>
+	<h2>The new internet</h2>
+
+<form action="http://localhost:3000/logedin">
+	<button>Logedin</button>
+</form>
 
 </section>
 
