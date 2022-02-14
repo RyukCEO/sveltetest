@@ -13,37 +13,15 @@
 	// it so that it gets served as a static asset in prod
 	export const prerender = true;
 
-    
+    //export async function post(){
+        // @ts-ignore
+        //const res = await post ('/api/login', {
+           // username: this.username,
+            //password: this.password
+        //});
+    //}
 
-
-
-
-
-import * as db from '$lib/database';
-
-export async function get() {
-	const items = await db.list();
-
-	return {
-		body: { items }
-	};
-}
-    
-
-    export async function post({ request }) {
-	const [errors, item] = await db.create(request);
-
-	if (errors) {
-		// return validation errors
-		return {
-			status: 400,
-			body: { errors }
-		};
-	}
-};
-    
-// @ts-ignore
-
+    //let data = fetch('/api/auth/login', {method: 'POST'});
 
 
 
@@ -54,7 +32,7 @@ export async function get() {
 </svelte:head>
 
 <div class="content">
-	<form action="http://localhost:3000/api/auth/login" class="login-form" id="reg-form" method="post" >
+	<form action="/login" class="login-form" id="reg-form" method="post" >
         <h1>Login</h1>
         
         <div class="txtb">
